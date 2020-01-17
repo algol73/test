@@ -20,4 +20,5 @@ var measureUnit ="км";
 
 var firstDistance = calculateDistance(3,12,14);
 var secondDistance = calculateDistance(5,1,2);
-console.log(firstDistance, secondDistance) ;
+console.log('Расстояние между первыми поселками: ' + firstDistance + measureUnit);
+console.log('Расстояние между вторыми поселками: ' + secondDistance + measureUnit);
