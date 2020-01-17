@@ -16,6 +16,8 @@ var totalDistace = distanceOfFirstCyclist+distanceOfSecondCyclist;
 return totalDistace;
 }
 
+var measureUnit ="км";
+
 var firstDistance = calculateDistance(3,12,14);
 var secondDistance = calculateDistance(5,1,2);
 console.log(firstDistance, secondDistance) ;
