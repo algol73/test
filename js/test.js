@@ -16,4 +16,6 @@ var totalDistace = distanceOfFirstCyclist+distanceOfSecondCyclist;
 return totalDistace;
 }
 
-console.log(calculateDistance(3,12,14));
+var firstDistance = calculateDistance(3,12,14);
+var secondDistance = calculateDistance(5,1,2);
+console.log(firstDistance, secondDistance) ;
